@@ -1,6 +1,6 @@
 # CND Linux
 
-This is a *slow* work in progress. I intend to use the [spin]() framework from [Fedora](http://fedoraproject.org) to rebrand and modify the default install of [Scientific Linux](http://www.scientificlinux.org) to be suitable for use on a US Government network according to Federal Information Processing Standards (FIPS). Specifically, this will target DoD usage.
+This is a *slow* work in progress. I intend to use the [spin](http://spins.fedoraproject.org/about) framework from [Fedora](http://fedoraproject.org) to rebrand and modify the default install of [Scientific Linux](http://www.scientificlinux.org) to be suitable for use on a US Government network according to Federal Information Processing Standards (FIPS). Specifically, this will target DoD usage.
 
 ## Features
 
