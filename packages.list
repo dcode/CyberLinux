@@ -1,0 +1,15 @@
+// Mostly just scraps for now. This is so I can track my own 
+// development and know what I can drop.
+
+lftp
+
+// Add Repo 
+// http://download.virtualbox.org/virtualbox/rpm/rhel/virtualbox.repo
+
+epel-release
+dkms [epel]
+bash-completion [epel]
+
+gcc kernel-devel kernel-headers
+VirtualBox-4.0
+
