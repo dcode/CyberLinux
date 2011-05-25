@@ -10,6 +10,6 @@ Some of the features that I plan to include:
  * Login Banners
  * Smart Card (CAC/PIV) authentication
  * Full-Disk Encryption (possibily with SmartCard authentication)
- * Baseline of (Security Technical Implementation Guides)[http://iase.disa.mil/stigs/stig/index.html] (STIGs)
+ * Baseline of [Security Technical Implementation Guides](http://iase.disa.mil/stigs/stig/index.html)(STIGs)
 
 I intend to build all of this into a Kickstart-able installation. I've done some initial work of getting SmartCard authentication into the disk encryption pre-boot. The CAC/PIV smart cards add some additional challenges beyond open source cards.
