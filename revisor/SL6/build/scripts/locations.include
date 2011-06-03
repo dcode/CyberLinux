@@ -1,0 +1,24 @@
+#Change these based on your site
+PRODUCT="Scientific Linux"
+VERSIONMAJOR=6
+VERSIONMINOR=0
+VERSIONROLLING=${VERSION}rolling
+#switch these if you are doing production vs rolling(test)
+VERSIONDIR=$VERSIONROLLING
+#VERSIONDIR=$VERSION
+#Used if you are modifying/adding installclasses/
+PRODUCT_INPUT_DIR=/etc/revisor/SL6/build/scripts/product
+PRODUCT_IMG_DIR=/etc/revisor/SL6/images
+PRODUCT_IMG=sl6-product.img
+#Misc handy variables
+MYPWD=`pwd`
+DATE=`date "+%m%d%y"`
+export PRODUCT
+export VERSIONMAJOR
+export VERSIONMINOR
+export MYPWD
+export RELEASEDIR
+export DATE
+export PRODUCT_INPUT_DIR
+export PRODUCT_IMG_DIR
+export PRODUCT_IMG
